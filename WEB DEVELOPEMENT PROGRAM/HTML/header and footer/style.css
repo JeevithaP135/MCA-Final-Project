@@ -1,0 +1,52 @@
+h1#Heading1
+{
+    color:rgb(24,158,250);
+    background-color:red;
+
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dotted;
+    margin: 50px;
+    text-transform:uppercase;
+}
+div#Heading1
+{
+    color:white;
+    text-align: center;
+    background-color: blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 100px;
+    border: 15px ridge goldenrod;
+    margin: 5px;
+    text-transform: capitalize;
+    }
+
+#Heading2
+{
+    color:aqua;
+}
+li:nth-child(even)
+{
+    background-color: azure;
+    color:rgb(28, 28, 100);
+}
+li:nth-child(odd)
+{
+    background-color: antiquewhite;
+    color:black;
+}
+.footer
+{
+ position: fixed;
+ left: 10px;
+ bottom: 10px;
+ right: 10px;
+ width: 95px;
+ background-color: gray;
+ color:white;
+ text-align: center;
+}
+function top()
+{
+    document.getElementById("Documentation").innerHTML="HTML Documentation";
+}

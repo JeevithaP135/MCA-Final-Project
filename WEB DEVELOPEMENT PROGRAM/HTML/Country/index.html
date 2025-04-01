@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+</head>
+<body>
+    <button value="country" onclick="country()">Country</button>
+
+    <div id="country" style="display: none; margin-top: 20px;">
+
+        <button id="india" onclick="india()">India</button>
+        <p id="india-show"style="display: none;">The India currency is known as the Indian Rupee(INR).It has seven largest world.A land of various cultures and a rich heritage.The national song is named vande matram.</p>
+        <button id="america" onclick="america()">America</button>
+        <p id="america-show"style="display: none;">The Americas,which are sometimes collectively called America,are a landmass comprising the totality of North and South America.The Americas make up most of the land in Earth's Western Hemisphere and comprise the New World.</p>
+        <button id="china" onclick="china()">China</button>
+        <p id="china-show"style="display: none;">It is the world's most populous country,with a population exceeding 1.4 billion,slightly ahead of India. China spans the equivalent of five time zones and borders fourteen countries by land,the most of any country in the world,tied with Russia.</p>
+    </div>
+    <script>
+        function country(){
+            var country = document.getElementById("country");
+            if(country.style.display == "block") {
+                country.style.display = "none";
+            }
+            else{
+                country.style.display = "block";
+            }
+        }
+
+        function india(){
+            var indiaShow = document.getElementById("india-show");
+            if(indiaShow.style.display == "block") {
+                indiaShow.style.display = "none";
+            }
+            else{
+                indiaShow.style.display = "block";
+            }
+        }  
+
+        function america(){
+            var americaShow = document.getElementById("america-show");
+            if(americaShow.style.display == "block") {
+                americaShow.style.display = "none";
+            }
+            else{
+                americaShow.style.display = "block";
+            }
+        }  
+
+        function china(){
+            var chinaShow = document.getElementById("china-show");
+            if(chinaShow.style.display == "block") {
+                chinaShow.style.display = "none";
+            }
+            else{
+                chinaShow.style.display = "block";
+            }
+        }  
+    </script>
+</body>    
+</html>
